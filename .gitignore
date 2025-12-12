@@ -1,0 +1,35 @@
+# ---- Virtual environments ----
+# common names in project root or subdirs
+venv/
+.venv/
+env/
+.env/
+**/venv/
+**/.venv/
+**/env/
+**/.env/
+.idea
+
+# ---- Data files ----
+*.csv
+*.tsv
+*.xlsx
+*.json
+*.parquet
+*.DS_Store
+
+# ---- Images ----
+*.jpg
+*.jpeg
+*.png
+
+# ---- Python cache / build junk ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.ipynb_checkpoints/
+build/
+dist/
+*.egg-info/
